@@ -511,15 +511,16 @@ section {
   color: #4e4039;
 }
 .about h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   margin-top: 5px;
   color: #1b5693;
 }
 
 .about p {
-  font-size: 18px;
+  font-size: 14px;
   color: #296bc2;
+  margin-bottom: 0 !important;
 }
 @media (max-width: 991px) {
   .about .about-img img {
@@ -682,6 +683,7 @@ section {
   z-index: 2;
 }
 .portfolio .portfolio-wrap img {
+  height: 309px;
   transition: 0.3s;
   position: relative;
   z-index: 1;
