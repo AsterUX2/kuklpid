@@ -241,9 +241,13 @@
   box-shadow: 0px 12px 12px rgba(41, 107, 194, 0.35);
   border-radius: 10px;
 }
-/* .flip-card .profile_img {
-  padding-bottom: 10%;
-} */
+.flip-card .profile_img img,
+.director_profile .profile_img img {
+  height: 88px;
+  width: 88px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 .message {
   background: linear-gradient(
