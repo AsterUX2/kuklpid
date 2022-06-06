@@ -785,16 +785,19 @@
     height: auto;
     top: 0;
   }
+  #header .space-between {
+    justify-content: space-between !important;
+  }
   .navbar a {
     padding: 10px;
   }
+
   .top_header,
   .second_top_header {
     display: none !important;
   }
   .ministry-heading {
     color: #296bc2;
-    /* margin-right: 6.5rem !important; */
   }
   .section {
     margin-top: 0;
