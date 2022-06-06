@@ -785,9 +785,6 @@
     height: auto;
     top: 0;
   }
-  #header .space-between {
-    justify-content: space-between !important;
-  }
   .navbar a {
     padding: 10px;
   }
@@ -798,6 +795,10 @@
   }
   .ministry-heading {
     color: #296bc2;
+  }
+  .ministry-heading span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
   }
   .section {
     margin-top: 0;
