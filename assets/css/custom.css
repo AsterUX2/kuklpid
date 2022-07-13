@@ -73,6 +73,21 @@
   width: 46px;
   height: 57px;
 }
+.notice-marquee {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+}
+.notice-marquee .notice-title {
+  background: #296bc2;
+  color: #fff;
+  padding: 10px 14px;
+  margin-right: 2%;
+}
+.notice-marquee .marquee {
+  padding: 10px 14px;
+  color: #d63c3c;
+}
 #banner .img-wrap {
   height: 70vh;
 }
@@ -788,17 +803,13 @@
   .navbar a {
     padding: 10px;
   }
-
   .top_header,
   .second_top_header {
     display: none !important;
   }
   .ministry-heading {
     color: #296bc2;
-  }
-  .ministry-heading span {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.8);
+    /* margin-right: 6.5rem !important; */
   }
   .section {
     margin-top: 0;
@@ -1048,8 +1059,16 @@
 
 /* =======Videos Page css End == */
 
-#table .nav {
-  /* padding-left: 15px; */
+#table .nav-link {
+  height: 98px;
+}
+#table .nav-link p {
+  font-size: 14px !important;
+}
+#table .tab-content .table .heading-2 {
+  background-color: #296bc2 !important;
+  color: #fff;
+  border: none !important;
 }
 
 /*--------------------------------------------------------------
