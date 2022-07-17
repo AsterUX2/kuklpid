@@ -1004,6 +1004,7 @@
   display: -webkit-box;
   font-size: 14px;
   padding-bottom: 10px;
+  line-height: 20px;
 }
 .event .btn-primary {
   background-color: #296bc2 !important;
