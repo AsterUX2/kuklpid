@@ -757,7 +757,7 @@
   position: absolute;
   background: #999;
   height: 1px;
-  width: 52%;
+  width: 53%;
   top: 0px;
   left: 0;
 }
@@ -970,6 +970,11 @@
   left: 0;
   right: 0;
   margin: auto;
+}
+.employee nav {
+  background-color: #dcecf4;
+  padding: 15px;
+  text-align: center;
 }
 /* ========Events PAge CSs Start========== */
 .event .card .image {
