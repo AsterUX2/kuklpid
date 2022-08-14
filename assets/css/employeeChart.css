@@ -32,7 +32,7 @@ ol.organizational-chart > li > div:after {
 }
 
 ol.organizational-chart ol > li {
-  padding: 1em 0 0 1em;
+  padding: 0.5em 0 0 0.5em;
 }
 
 ol.organizational-chart > li ol:before {
@@ -280,4 +280,17 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     top: 0;
     width: 100%;
   }
+}
+.employee_chart .employee_info .employee_img img {
+  width: 80px;
+  height: 80px;
+}
+.employee_chart .employee_info h4 {
+  font-size: 14px;
+  word-break: break-word;
+}
+.employee_chart .employee_info p,
+.employee_chart .employee_info span {
+  font-size: 12px;
+  word-break: break-all;
 }
