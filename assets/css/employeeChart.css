@@ -26,7 +26,7 @@ ol.organizational-chart li:before,
 ol.organizational-chart li:after,
 ol.organizational-chart > li > div:before,
 ol.organizational-chart > li > div:after {
-  background-color: #b7a6aa;
+  background-color: #000;
   content: "";
   position: absolute;
 }
@@ -281,7 +281,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
     width: 100%;
   }
 }
-.employee_chart .employee_info .employee_img img {
+.employee_chart .employee_img img {
   width: 80px;
   height: 80px;
 }
