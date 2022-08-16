@@ -696,7 +696,8 @@
 .organization-head {
   position: relative;
 }
-.organization-box {
+.organization-box,
+.organization-box-none {
   background: #296bc2;
   text-align: center;
   color: #fff;
@@ -719,10 +720,20 @@
   margin-left: 50%;
   bottom: -17px;
 }
+
+.organization-box ul li,
+.organization-box-none ul li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
 .bg_transparent::before {
   background: transparent !important;
 }
-.organization-branch-box {
+.organization-branch-box,
+.top-pipe {
   background: #f3dada;
   text-align: center;
   color: #333;
@@ -740,17 +751,30 @@
   background: #666;
   width: 1px;
   height: 16px;
-  left: 0;
+  right: -14px;
   top: -16px;
   margin-left: 50%;
 }
-.organization-sub-system {
+.top-pipe::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #666;
+  width: 1px;
+  height: 16px;
+  left: 0px;
+  top: -16px;
+  margin-left: 50%;
+}
+.organization-sub-system,
+.organization-sub-system-none {
   border-left: 1px solid #999;
   padding-top: 15px;
   padding-left: 15px;
   margin-left: -15px;
   position: relative;
 }
+
 .organization-sub-system:before {
   content: "";
   display: block;
@@ -761,7 +785,8 @@
   top: 0px;
   left: 0;
 }
-.organization-head-branch-box {
+.organization-head-branch-box,
+.organization-head-branch-box-none {
   background: #dcecf4;
   text-align: center;
   color: #333;
@@ -781,9 +806,19 @@
   width: 16px;
   left: -17px;
 }
+.organization .right-pipe::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #000;
+  height: 1px;
+  width: 13px;
+  left: 50%;
+  bottom: 50%;
+}
 .organization h4 {
   font-family: "Montserrat";
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   font-weight: 600;
 }
 .organization-head-branch-box h4 {
