@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
@@ -45,17 +45,20 @@
     <link href="assets/css/animate/animate.min.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
+
+
+
   </head>
 
-  <body oncontextmenu= "return false">
+  <body>
 
     <!-- ============Top header section=======  -->
     <header class="top_header d-flex align-items-center justify-content-between ">
       <div class="container">
-        <div class="row row-cols-auto justify-content-between">
+        <div class="row row-cols-auto justify-content-between align-items-center">
           <div class="col text-nowrap">
             <span><i class="bx bx-phone-call"></i>&nbsp;
-            (+977) 1 570 5916 , (+977) 1 570 5148 , (+977) 1 570 5057</span>
+            (+977) 1 570 5916 , (+977) 1 570 5148  </span> <span><i class="fa fa-fax ms-2 me-2"></i>(+977) 1 570 5057</span>
           </div>
            
           <div class="col">
@@ -65,6 +68,10 @@
             <span><i class="bi bi-geo-alt"></i>&nbsp;TankaPrasad Ghumti Sadak</span>
           </div>
 
+          <div class="col">
+       
+                <button type="button" class="btn btn-primary btn-sm animate__animated animate__pulse" style="animation-iteration-count: infinite;">Sign In</button>
+          </div>
         </div>
       </div>
     </header>
@@ -77,21 +84,21 @@
           <div class="col d-flex align-items-center gov-title">
             <img src="assets/img/gov.png" alt="" />
             
-             <P><span>Governmnet of Nepal</span> <br />
-              Melamchi Sub-Project 2 <br />
-              Project Implementation Directorate (PID)</P> 
-            
+             <P><span>Government of Nepal</span> <br />
+              <span>Melamchi Sub-Project 2</span> <br />
+            </P>
+
           </div>
-          <div class="col d-flex align-items-center">
+          <div class="col d-flex align-items-center kukl-title">
             <img src="assets/img/logo1.png" alt="" />
             <p>
-              <span>Kathmandu Upatyaka</span> <br />
-              Khanepani Limited
-            </p>
+             <span style="font-size: 14px;">Kathmandu Upatyaka Khanepani Limited</span> <br>
+             <span>Project Implementation Directorate (PID)</span>
+            </p> 
+             
+
           </div>
-          <div class="col tollfree">
-            <img src="assets/img/toll_free_number.png" alt="" />
-          </div>
+
           <div class="col nepalFlag">
             <img src="assets/img/nepalFlag.gif" alt="" />
           </div>
@@ -102,7 +109,7 @@
 
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center sticky-top">
-      <div class="container d-flex align-items-center justify-content-center">
+      <div class="container d-flex align-items-center justify-content-between">
 
         <nav id="navbar" class="navbar">
                                 <div class="container d-lg-none ">
@@ -125,9 +132,13 @@
                 ><span>About</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
-                <li><a href="introduction.html">Introduction</a></li>
+                     <li><a href="introduction.html">Introduction</a></li>
                 <li><a href="organization.html">Organization Structure</a></li>
                 <li><a href="employee.html">Employees</a></li>
+                <li><a href="procedure.html">Management Procedure</a></li>
+                <li><a href="qa.html">Quality Assurance</a></li>
+                <li><a href="ca.html">Social and Environmental Safeguard Activities</a></li>
+
               </ul>
             </li>
 
@@ -136,10 +147,11 @@
                 ><span>Projects</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
-                <li><a href="procedure.html">Management Procedure</a></li>
+                <li><a href="ongoingProject.html">KVWSIP (ADB LOAN-2776) </a></li>
 
-                <li><a href="qa.html">Quality Assurance</a></li>
-                <li><a href="ca.html">Social and Environmental Safeguard Activities</a></li>
+                <li><a href="ongoingProject.html">KVWSIP (3255 NEP SF)</a></li>
+                <li><a href="ongoingProject.html">KVWSIP (Government Funding)</a></li>
+                <li><a href="ongoingProject.html">KVWSIP (ADB LOAN-3000)</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -147,10 +159,11 @@
                 ><span>Activities</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul>
-                <li><a href="gallery.html">Gallery</a></li>
 
                 <li><a href="event.html">Events</a></li>
-                <li><a href="videos.html">Videos</a></li>
+                <li><a href="">Planned</a></li>
+                <li><a href="">On Going</a></li>
+                <li><a href="">Completed</a></li>
               </ul>
             </li>
 
@@ -186,6 +199,18 @@
                 </li>
               </ul>
             </li>
+
+       <li class="dropdown">
+              <a href="#"
+                ><span>Gallery</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+
+                <li><a href="gallery.html">Photos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+              </ul>
+            </li>
+
             <li class="dropdown">
               <a href="#"
                 ><span>Download</span> <i class="bi bi-chevron-down"></i
@@ -201,7 +226,15 @@
             </li>
 
             <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
+    <button
+        type="button"
+        class="btn btn-info btn-md ms-lg-4"
+        data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+      >
+        Search
+      </button>
 
+  
           </ul>
          
         </nav>
@@ -308,7 +341,7 @@
         <div class="container"data-aos="fade-up" data-aos-delay="200">
           <div class="section-title">
             <p class="decoratedLine" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><span>About Us</span></p>
-            <h2>Welcome to <span>KUKL</span></h2>
+            <h2>Welcome to <span>PID</span></h2>
           </div>
           <div class="row justify-content-between gx-5" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-9 d-flex align-items-center justify-content-center">
@@ -1682,25 +1715,66 @@ H.H.C : 400
 
     </main>
     <!-- End #main -->
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <!-- Modal content start-->
+          <div class="modal-content">
+            <div class="modal-header">
+             
 
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                
+              </button>
+            </div>
+            <div class="modal-body">
+    <div class="search">
+                          <i class="fa fa-search"></i>
+                          <input type="text" class="form-control" placeholder="Search Here ..." id="search-input">
+                          <button class="btn btn-primary">Submit</button>
+                          <ul class="list-group list-group-flush text-primary h5">
+                            <li class="list-group-item p-3">C#</li>
+                            <li class="list-group-item p-3">Python</li>
+                            <li class="list-group-item p-3">Java</li>
+                            <li class="list-group-item p-3">C++</li>
+                            <li class="list-group-item p-3">C</li>
+                            <li class="list-group-item p-3">JavaScript</li>
+                            <li class="list-group-item p-3">HTML</li>
+                            <li class="list-group-item p-3">CSS</li>
+                          </ul>
+                        </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="footer-top ">
         <div class="container">
           <div class="row row-cols-auto justify-content-between">
             <div class="col  footer-links pid">
-                <h4>Project Implementation Directorate</h4>
+                <h4>Project Implementation Directorate (PID)</h4>
+        
                 <div class="info">
                   <i class="bx bx-phone-call"></i>
-                  <span>(+977) 1 570 5916 , (+977) 1 570 5148 , (+977) 1 570 5057</span>
+                  <span>Toll Free Number:</span> <span class="ms-2">1139</span>
                 </div>
                 <div class="info mt-3 mb-3">
                <i class="bx bx-envelope"></i> pidmail@kuklpid.org.np
                 </div>
+
+                                  <div class="info mb-3">
+                 <i class="fa fa-fax "></i>
+                  <span>Fax:  (+977) 1 570 5057</span>
+                </div>
                 <div class="info">
                 <i class="bi bi-geo-alt"></i> TankaPrasad Ghumti Sadak
                 </div>
-          
+                  <div class="info mt-3">
+                  <i class="bx bx-phone-call"></i>
+                  <span>(+977) 1 570 5916 , (+977) 1 570 5148 </span>
+                </div>
              
             </div>
 
@@ -1805,6 +1879,29 @@ H.H.C : 400
     <script src="assets/js/main.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+
+document.querySelector('#search-input').addEventListener('input', filterList);
+
+function filterList(){
+  const searchInput = document.querySelector('#search-input');
+  const filter = searchInput.value.toLowerCase();
+  const listItems = document.querySelectorAll('.list-group-item');
+
+  listItems.forEach((item)=>{
+    let text = item.textContent;
+    if(text.toLowerCase().includes(filter.toLowerCase())){
+      item.style.display = '';
+    }
+    else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+</script>
+
     <script>
       AOS.init();
        var swiper = new Swiper(".mySwiper", {
@@ -1828,7 +1925,7 @@ H.H.C : 400
           autoplay: {
     delay: 4000,
   },
-        loop: true,
+        loop: false,
         loopFillGroupWithBlank: true,
         
         pagination: {
